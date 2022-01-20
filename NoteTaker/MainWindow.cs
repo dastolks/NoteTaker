@@ -32,7 +32,7 @@ namespace NoteTaker
 
             dataGridViewMain.DataSource = table;
             dataGridViewMain.Columns["Messages"].Visible = false;
-            dataGridViewMain.Columns["Title"].Width = dataGridViewMain.Size.Width-3;
+            dataGridViewMain.Columns["Title"].Width = dataGridViewMain.Size.Width-4;
         }
 
         private void buttonNew_Click(object sender, EventArgs e)
